@@ -6,16 +6,12 @@ class Shoe
  
   def initialize(brand)
     @brand = brand
-  end 
-  
-  def brand_unique(brand)
-    @brand = brand
-      if !(BRANDS.include?(@brand))
+    if !(BRANDS.include?(@brand))
       BRANDS << @brand
       BRANDS
     # @@BRANDS = @@BRANDS.uniq
     end
-  end
+  end 
 
   def cobble
     self.condition = "new"
