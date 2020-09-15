@@ -2,7 +2,6 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
   
-  ALL_BRANDS = []
   BRANDS = []
  
   def initialize(brand)
@@ -15,7 +14,6 @@ class Shoe
   end
   
   def brand= (brand)
-    # ALL_BRANDS = []
     @brand = brand
     BRANDS << brand 
     # BRANDS = BRANDS.uniq 
