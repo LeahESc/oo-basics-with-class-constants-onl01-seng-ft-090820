@@ -19,6 +19,4 @@ class Shoe
     ALL_BRANDS << brand 
     BRANDS = ALL_BRANDS.uniq 
   end
-    
-
 end
