@@ -11,6 +11,9 @@ class Shoe
     #   BRANDS
     # # @@BRANDS = @@BRANDS.uniq
     if BRANDS.include? (brand)
+      BRANDS
+    else
+      BRANDS << brand
     end
   end 
 
