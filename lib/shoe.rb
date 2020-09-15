@@ -10,10 +10,8 @@ class Shoe
   
   def brand_unique(brand)
     @brand = brand
-    if BRANDS.include? |brand| 
-	     BRANDS
-    else
-	    BRANDS << brand
+      if !(BRANDS.include?(@brand))
+      BRANDS << @brand
       BRANDS 
     # @@BRANDS = @@BRANDS.uniq
     end
