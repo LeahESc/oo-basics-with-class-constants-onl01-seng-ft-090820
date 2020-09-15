@@ -18,6 +18,6 @@ class Shoe
     # ALL_BRANDS = []
     @brand = brand
     BRANDS << brand 
-    BRANDS = BRANDS.uniq 
+    # BRANDS = BRANDS.uniq 
   end
 end
