@@ -17,7 +17,7 @@ class Shoe
     ALL_BRANDS = []
     @brand = brand
     ALL_BRANDS << brand 
-    ALL_BRANDS.uniq 
+    ALL_BRANDS.uniq {|brand| 
     
 
 end
