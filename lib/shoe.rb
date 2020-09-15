@@ -6,6 +6,10 @@ class Shoe
  
   def initialize(brand)
     @brand = brand
+  end 
+  
+  def brand_unique(brand)
+    @brand = brand
     if BRANDS.include? |brand| 
 	     BRANDS
     else
