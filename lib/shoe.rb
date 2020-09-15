@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     @@BRANDS << brand
     @@BRANDS = @@BRANDS.uniq 
-    @@BRAND
+    @@BRANDS
     # @@BRANDS = @@BRANDS.uniq
   end
 
