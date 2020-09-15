@@ -17,7 +17,7 @@ class Shoe
   def brand= (brand)
     # ALL_BRANDS = []
     @brand = brand
-    ALL_BRANDS << brand 
-    BRANDS = ALL_BRANDS.uniq 
+    BRANDS << brand 
+    BRANDS = BRANDS.uniq 
   end
 end
