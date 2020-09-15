@@ -17,7 +17,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  # def brand= (brand)
+  # def brand_unique = (brand)
   #   @brand = brand
   #   @@BRANDS << brand 
   #   @@BRANDS = @@BRANDS.uniq 
